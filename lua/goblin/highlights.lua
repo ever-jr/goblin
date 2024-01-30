@@ -40,7 +40,6 @@ M.setup = function(p)
         Conditional = { fg = p.purple_evil },
         Repeat = { fg = p.purple_evil },
         Label = { fg = p.purple_evil },
-        Operator = { fg = p.purple_evil },
         Keyword = { fg = p.purple_evil },
         Exception = { fg = p.purple_evil },
         StorageClass = { fg = p.purple_evil },
@@ -50,7 +49,7 @@ M.setup = function(p)
         Type = { fg = p.yellow_gold },
 
         Special = { fg = p.grey_dust },
-        Delimiter = { fg = p.red_blood },
+        Delimiter = { fg = p.grey_dust },
         SpecialComment = { fg = p.red_blood },
 
         Error = { fg = p.red_blood },
@@ -61,6 +60,9 @@ M.setup = function(p)
 
         LineNr = { fg = p.grey_dust },
         ColorColumn = { bg = p.black_void },
+
+        --Others
+        Directory = { fg = p.green_goblin, fmt="bold" },
     })
 end
 
