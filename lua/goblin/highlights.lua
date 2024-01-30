@@ -63,13 +63,11 @@ M.setup = function(p)
         ["@lsp.type.property"] = { fg = p.white_dagger },
 
         --Menu related
-        LineNr = { fg = p.grey_dust },
+        LineNr = { fg = p.grey_dust, bg = "none" },
         ColorColumn = { bg = p.black_void },
         Conceal = {},
         PMenu = { bg = p.black_void },
         PMenuSel = { bg = p.light.blue_sky },
-        Folded = {},
-        FoldedColumn = {},
 
         --Cursor related
         Visual = { bg = p.grey_sadness },
