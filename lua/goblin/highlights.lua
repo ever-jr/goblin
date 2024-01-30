@@ -49,7 +49,7 @@ M.setup = function(p)
 
         Type = { fg = p.yellow_gold },
 
-        Special = { fg = p.red_blood },
+        Special = { fg = p.grey_dust },
         Delimiter = { fg = p.red_blood },
         SpecialComment = { fg = p.red_blood },
 

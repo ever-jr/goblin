@@ -8,7 +8,6 @@ M.colorscheme = function()
     vim.o.termguicolors = true
     vim.g.colors_name = "goblin"
 
-    --TODO: do this
     require("goblin.highlights").setup(pallete.young_goblin)
     require("goblin.terminal").setup(pallete.young_goblin)
 end
@@ -30,7 +29,6 @@ end
 ---@param opts Options?
 M.setup = function(opts)
     opts = replace_with_default(opts)
-    print("Hi dear goblin")
 end
 
 ---Load your beautiful colorscheme.
