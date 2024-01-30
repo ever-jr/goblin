@@ -60,7 +60,7 @@ M.setup = function(p)
         ["@punctuation"] = { fg = p.grey_dust },
 
         ["@lsp.type.parameter"] = { fg = p.grey_dust },
-        ["@lsp.type.property"] = { fg = p.light.purple_evil },
+        ["@lsp.type.property"] = { fg = p.white_dagger },
 
         --Menu related
         LineNr = { fg = p.grey_dust },
