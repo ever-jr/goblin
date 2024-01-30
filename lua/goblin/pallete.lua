@@ -10,6 +10,7 @@
 ---@field light Colors
 ---@field white_dagger string
 ---@field grey_dust string
+---@field grey_sadness string
 ---@field black_void string
 
 ---@type table<string, Pallete>
@@ -26,12 +27,13 @@ return {
             green_goblin = "#b2d7aa",
             yellow_gold = "#f0f090",
             red_blood = "#ef094a",
-            purple_evil = "#cf45bf",
+            purple_evil = "#ee9fed",
             blue_sky = "#067ad5",
             cyan_tears = "#02a7aa",
         },
         white_dagger = "#e3eaef",
         grey_dust = "#c0cbc7",
+        grey_sadness = "#525659",
         black_void = "#1d1b2e",
     },
     ---TODO: old goblin; tmux colors
@@ -52,6 +54,7 @@ return {
         },
         white_dagger = "#ffffff",
         grey_dust = "#aaaaaa",
+        grey_sadness = "#525659",
         black_void = "#000000",
     },
 }
