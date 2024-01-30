@@ -58,10 +58,9 @@ M.setup = function(p)
         Todo = { fg = p.cyan_tears },
 
         ["@punctuation"] = { fg = p.grey_dust },
-        ["@namespace"] = { fg = p.red_blood },
 
-        ["@lsp.type.parameter"] = { fg = p.blue_sky },
-        ["@lsp.type.property"] = { fg = p.yellow_gold },
+        ["@lsp.type.parameter"] = { fg = p.grey_dust },
+        ["@lsp.type.property"] = { fg = p.light.purple_evil },
 
         --Menu related
         LineNr = { fg = p.grey_dust },
