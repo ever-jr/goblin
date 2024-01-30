@@ -58,10 +58,11 @@ M.setup = function(p)
         Todo = { fg = p.cyan_tears },
 
         ["@punctuation"] = { fg = p.grey_dust },
-        ["@property"] = { fg = p.light.purple_evil },
 
+        --Menu related
         LineNr = { fg = p.grey_dust },
         ColorColumn = { bg = p.black_void },
+        PMenu = { bg = p.green_goblin },
 
         --Others
         Directory = { fg = p.green_goblin, fmt="bold" },
