@@ -30,7 +30,7 @@ end
 ---@param p Pallete
 M.setup = function(p)
     highlight_it({
-        Comment = { fg = p.grey_dust },
+        Comment = { fg = p.grey_sadness },
         Normal = { fg = p.white_dagger },
         NonText = {},
         Identifier = { fg = p.white_dagger },
@@ -68,6 +68,8 @@ M.setup = function(p)
         Conceal = {},
         PMenu = { bg = p.black_void },
         PMenuSel = { bg = p.light.blue_sky },
+        Folded = {},
+        FoldedColumn = {},
 
         --Cursor related
         Visual = { bg = p.grey_sadness },
