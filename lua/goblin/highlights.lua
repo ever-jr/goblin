@@ -62,7 +62,7 @@ M.setup = function(p)
         --Menu related
         LineNr = { fg = p.grey_dust },
         ColorColumn = { bg = p.black_void },
-        PMenu = { bg = p.green_goblin },
+        PMenu = { bg = p.black_void },
 
         --Others
         Directory = { fg = p.green_goblin, fmt="bold" },
