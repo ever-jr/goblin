@@ -9,7 +9,7 @@ M.colorscheme = function()
     vim.g.colors_name = "goblin"
 
     --TODO: do this
-    require("goblin.highlights").setup()
+    require("goblin.highlights").setup(pallete.young_goblin)
     require("goblin.terminal").setup(pallete.young_goblin)
 end
 
@@ -35,7 +35,8 @@ end
 
 ---Load your beautiful colorscheme.
 M.load = function()
-    print("Loading...\nERROR! Gold missing in my pocket!")
+    -- print("Loading...\nERROR! Gold missing in my pocket!")
+    vim.cmd.colorscheme("goblin")
 end
 
 return M
