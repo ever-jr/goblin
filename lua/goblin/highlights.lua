@@ -68,8 +68,9 @@ M.setup = function(p)
         Conceal = {},
         PMenu = { bg = p.black_void },
         PMenuSel = { bg = p.light.blue_sky },
-        CursorLineSign = {},
-        CursorLineFold = {},
+        PMenuSBar = { bg = p.light.green_goblin },
+        CursorColumn = {},
+        CursorLine = {},
 
         --Cursor related
         Visual = { bg = p.grey_sadness },
