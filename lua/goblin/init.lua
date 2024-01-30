@@ -1,5 +1,7 @@
 local M = {}
 
+local pallete = require("goblin.pallete")
+
 M.colorscheme = function()
     vim.cmd("hi clear")
     if vim.fn.exists("syntax_on") then vim.cmd("syntax reset") end
@@ -8,10 +10,8 @@ M.colorscheme = function()
 
     --TODO: do this
     require("goblin.highlights").setup()
-    require("goblin.terminal").setup()
+    require("goblin.terminal").setup(pallete.young_goblin)
 end
-
-local pallete = require("goblin.pallete")
 
 ---@class Options
 ---@field style Pallete
