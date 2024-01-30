@@ -7,5 +7,5 @@ end
 
 print("yeah!!!")
 
--- require("goblin").setup()
--- require("goblin").colorscheme()
+require("goblin").setup()
+require("goblin").colorscheme()
