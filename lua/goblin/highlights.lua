@@ -66,6 +66,7 @@ M.setup = function(p)
         LineNr = { fg = p.grey_dust },
         ColorColumn = { bg = p.black_void },
         PMenu = { bg = p.black_void },
+        PMenuSel = { bg = p.light.blue_sky },
 
         --Others
         Directory = { fg = p.green_goblin, fmt="bold" },
