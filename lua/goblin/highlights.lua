@@ -64,6 +64,8 @@ M.setup = function(p)
 
         --Others
         Directory = { fg = p.green_goblin, fmt="bold" },
+
+        Cursor = { fg = "#000000", bg = "#ffffff" }
     })
 end
 
