@@ -58,6 +58,8 @@ M.setup = function(p)
         Todo = { fg = p.cyan_tears },
 
         ["@punctuation"] = { fg = p.grey_dust },
+
+        LineNr = { fg = p.red_blood },
     })
 end
 
