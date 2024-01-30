@@ -13,6 +13,7 @@ local M = {}
 ---@param highlights table<string, HighlightGroup>
 local highlight_it = function(highlights)
     for group_name, group_settings in pairs(highlights) do
+        print("highlighining:", group_name, group_settings)
         vim.api.nvim_command(
             string.format(
                 "highlight %s guifg=%s guibg=%s guisp=%s gui=%s",
