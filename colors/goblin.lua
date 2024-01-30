@@ -5,5 +5,7 @@ for k in pairs(package.loaded) do
     end
 end
 
-require("goblin").setup()
-require("goblin").colorscheme()
+print("yeah!!!")
+
+-- require("goblin").setup()
+-- require("goblin").colorscheme()
