@@ -33,7 +33,7 @@ M.setup = function(p)
         Comment = { fg = p.grey_dust },
         Normal = { fg = p.white_dagger },
         NonText = {},
-        Identifier = { fg = p.white_dagger },
+        Identifier = { fg = p.blue_sky },
         Function = { fg = p.green_goblin },
         String = { fg = p.yellow_gold },
 
@@ -58,14 +58,13 @@ M.setup = function(p)
         Todo = { fg = p.cyan_tears },
 
         ["@punctuation"] = { fg = p.grey_dust },
+        ["@property"] = { fg = p.light.purple_evil },
 
         LineNr = { fg = p.grey_dust },
         ColorColumn = { bg = p.black_void },
 
         --Others
         Directory = { fg = p.green_goblin, fmt="bold" },
-
-        Cursor = { fg = "#000000", bg = "#ffffff" }
     })
 end
 
