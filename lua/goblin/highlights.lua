@@ -30,7 +30,8 @@ end
 ---@param pallete Pallete
 M.setup = function(pallete)
     highlight_it({
-        Normal = { bg = pallete.black_void, fg = pallete.white_dagger },
+        Normal = { fg = pallete.white_dagger },
+        NonText = {},
     })
 end
 
