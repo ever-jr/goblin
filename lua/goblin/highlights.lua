@@ -58,6 +58,7 @@ M.setup = function(p)
         Todo = { fg = p.cyan_tears },
 
         ["@punctuation"] = { fg = p.grey_dust },
+        ["@text.reference"] = { fg = p.blue_sky },
 
         --Menu related
         LineNr = { fg = p.grey_dust },
