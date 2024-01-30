@@ -59,7 +59,8 @@ M.setup = function(p)
 
         ["@punctuation"] = { fg = p.grey_dust },
 
-        LineNr = { fg = p.red_blood },
+        LineNr = { fg = p.grey_dust },
+        ColorColumn = { bg = p.black_void },
     })
 end
 
