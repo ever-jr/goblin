@@ -65,6 +65,7 @@ M.setup = function(p)
         --Menu related
         LineNr = { fg = p.grey_dust },
         ColorColumn = { bg = p.black_void },
+        Conceal = {},
         PMenu = { bg = p.black_void },
         PMenuSel = { bg = p.light.blue_sky },
 
