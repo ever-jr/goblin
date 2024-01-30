@@ -35,6 +35,7 @@ M.setup = function(p)
         NonText = {},
         Identifier = { fg = p.white_dagger },
         Function = { fg = p.green_goblin },
+        String = { fg = p.yellow_gold },
 
         Statement = { fg = p.purple_evil },
         Conditional = { fg = p.purple_evil },
