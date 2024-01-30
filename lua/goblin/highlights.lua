@@ -33,7 +33,7 @@ M.setup = function(p)
         Comment = { fg = p.grey_dust },
         Normal = { fg = p.white_dagger },
         NonText = {},
-        Identifier = { fg = p.blue_sky },
+        Identifier = { fg = p.white_dagger },
         Function = { fg = p.green_goblin },
         String = { fg = p.yellow_gold },
 
