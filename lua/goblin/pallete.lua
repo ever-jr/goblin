@@ -32,7 +32,7 @@ return {
         },
         white_dagger = "#ffffff",
         grey_dust = "#aaaaaa",
-        black_void = "#000000",
+        black_void = "#444444",
     },
     ---TODO: old goblin; tmux colors
     old_goblin = {
