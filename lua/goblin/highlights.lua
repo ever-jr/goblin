@@ -58,6 +58,7 @@ M.setup = function(p)
         Todo = { fg = p.cyan_tears },
 
         ["@punctuation"] = { fg = p.grey_dust },
+        ["@comment"] = { fg = p.light.purple_evil },
 
         ["@lsp.type.parameter"] = { fg = p.grey_dust },
         ["@lsp.type.property"] = { fg = p.white_dagger },
@@ -75,10 +76,13 @@ M.setup = function(p)
         LineNr = { fg = p.grey_sadness },
         --Number Column color
         SignColumn = { fg = p.white_dagger },
+
         ColorColumn = { bg = p.black_void },
         -- Conceal = {},
         PMenu = { bg = p.black_void },
         PMenuSel = { bg = p.light.blue_sky },
+
+        StatusLine = { bg = p.grey_sadness, fg = p.white_dagger }
     }
     highlight_it(menu)
     menu = nil
