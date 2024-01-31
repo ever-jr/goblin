@@ -74,12 +74,12 @@ M.setup = function(p)
         -- Conceal = {},
         PMenu = { bg = p.black_void },
         PMenuSel = { bg = p.light.blue_sky },
-        PMenuSBar = { bg = p.light.blue_sky, fg = p.white_dagger },
 
         StatusLine = { bg = p.grey_sadness, fg = p.white_dagger },
 
         --Cursor related
         Visual = { bg = p.grey_sadness },
+        Search = { bg = p.black_void, fg = p.white_dagger },
 
         --Others
         Directory = { fg = p.green_goblin, fmt="bold" },

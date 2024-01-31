@@ -8,8 +8,9 @@ M.colorscheme = function()
     vim.o.termguicolors = true
     vim.g.colors_name = "goblin"
 
-    require("goblin.highlights").setup(pallete.young_goblin)
-    require("goblin.terminal").setup(pallete.young_goblin)
+    local p = pallete.gpt
+    require("goblin.highlights").setup(p)
+    require("goblin.terminal").setup(p)
 end
 
 ---@class Options
