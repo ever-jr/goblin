@@ -79,14 +79,14 @@ M.setup = function(p)
         -- CursorLineSign = {},
         -- CursorLineFold = {},
         -- Folded = {},
-        -- FoldColumn = {},
-        -- SignColumn = {},
-        -- PMenuSBar = {},
-        TabLine = {},
-        CursorColumn = {},
-        CursorLine = {},
-        lCursor = {},
-        RegrawDebugNormal = {},
+        FoldColumn = {},
+        SignColumn = {},
+        PMenuSBar = {},
+        -- TabLine = {},
+        -- CursorColumn = {},
+        -- CursorLine = {},
+        -- lCursor = {},
+        -- RegrawDebugNormal = {},
         --#endregion
     }
 
