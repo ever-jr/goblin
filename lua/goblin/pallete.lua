@@ -58,23 +58,22 @@ return {
         black_void = "#000000",
     },
     gpt = {
-        green_goblin = "#3E4D3E",         -- Lightened One Dark Green
-        yellow_gold = "#7F6B49",          -- Lightened One Dark Yellow
-        red_blood = "#864C4C",            -- Lightened One Dark Red
-        purple_evil = "#5E5275",          -- Lightened One Dark Purple
-        blue_sky = "#3D7495",             -- Lightened One Dark Blue
-        cyan_tears = "#356F79",           -- Lightened One Dark Cyan
+        green_goblin = "#98C379",    -- One Dark Green
+        yellow_gold = "#E5C07B",     -- One Dark Yellow
+        red_blood = "#E06C75",       -- One Dark Red
+        purple_evil = "#C678DD",     -- One Dark Purple
+        blue_sky = "#61AFEF",        -- One Dark Blue
+        cyan_tears = "#56B6C2",      -- One Dark Cyan
         light = {
-            green_goblin = "#AEDCAC",     -- Lightened One Dark Green
-            yellow_gold = "#F0DFAF",      -- Lightened One Dark Yellow
-            red_blood = "#F07C7F",        -- Lightened One Dark Red
-            purple_evil = "#D3C2E3",      -- Lightened One Dark Purple
-            blue_sky = "#A8C4D9",         -- Lightened One Dark Blue
-            cyan_tears = "#9DB9C2"        -- Lightened One Dark Cyan
+            green_goblin = "#98C379",
+            yellow_gold = "#E5C07B",
+            red_blood = "#E06C75",
+            purple_evil = "#C678DD",
+            blue_sky = "#61AFEF",
+            cyan_tears = "#56B6C2"
         },
-        white_dagger = "#5C6370",         -- One Dark Foreground
-        grey_dust = "#2E3137",            -- Lightened One Dark Comment Gray
-        grey_sadness = "#3F454F",         -- Lightened One Dark Selection Gray
-        black_void = "#272A32",
-    },
+        white_dagger = "#ABB2BF",    -- One Dark Foreground
+        grey_dust = "#4B5263",       -- One Dark Comment Gray
+        grey_sadness = "#5C6370",    -- One Dark Selection Gray
+        black_void = "#282C34",    },
 }
