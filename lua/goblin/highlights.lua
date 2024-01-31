@@ -62,26 +62,26 @@ M.setup = function(p)
         ["@lsp.type.parameter"] = { fg = p.grey_dust },
         ["@lsp.type.property"] = { fg = p.white_dagger },
 
-        --Menu related
-        LineNr = { fg = p.grey_sadness },
-        ColorColumn = { bg = p.black_void },
-        Conceal = {},
-        PMenu = { bg = p.black_void },
-        PMenuSel = { bg = p.light.blue_sky },
-
         --Cursor related
         Visual = { bg = p.grey_sadness },
 
         --Others
         Directory = { fg = p.green_goblin, fmt="bold" },
-
-        --#region MUDANDO A COR DA COLUNA DOS NUMEROS
-        -- FoldColumn = {},
-        SignColumn = {},
-        -- PMenuSBar = {},
     }
-
     highlight_it(common)
+    common = nil
+
+    local menu = {
+        LineNr = { fg = p.grey_sadness },
+        --Number Column color
+        SignColumn = { fg = p.white_dagger },
+        ColorColumn = { bg = p.black_void },
+        -- Conceal = {},
+        PMenu = { bg = p.black_void },
+        PMenuSel = { bg = p.light.blue_sky },
+    }
+    highlight_it(menu)
+    menu = nil
 end
 
 return M
