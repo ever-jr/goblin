@@ -47,7 +47,7 @@ M.setup = function(p)
         Structure = { fg = p.purple_evil },
         Typedef = { fg = p.purple_evil },
 
-        Type = { fg = p.yellow_gold },
+        Type = { fg = p.light.green_goblin },
 
         Special = { fg = p.grey_dust },
         Delimiter = { fg = p.grey_dust },
@@ -58,16 +58,14 @@ M.setup = function(p)
         Todo = { fg = p.cyan_tears },
 
         ["@punctuation"] = { fg = p.grey_dust },
-        ["@comment"] = { fg = p.light.purple_evil },
 
-        ["@lsp.type.parameter"] = { fg = p.grey_dust },
+        ["@lsp.type.parameter"] = { fg = p.red_blood },
         ["@lsp.type.property"] = { fg = p.white_dagger },
 
-        --Cursor related
-        Visual = { bg = p.grey_sadness },
-
-        --Others
-        Directory = { fg = p.green_goblin, fmt="bold" },
+        ["@module"] = { fg = p.light.red_blood },
+        ["@warning"] = { fg = p.light.yellow_gold },
+        ["@error"] = { fg = p.light.red_blood },
+        ["@danger"] = { fg = p.light.red_blood },
     }
     highlight_it(common)
     common = nil
@@ -82,7 +80,13 @@ M.setup = function(p)
         PMenu = { bg = p.black_void },
         PMenuSel = { bg = p.light.blue_sky },
 
-        StatusLine = { bg = p.grey_sadness, fg = p.white_dagger }
+        StatusLine = { bg = p.grey_sadness, fg = p.white_dagger },
+
+        --Cursor related
+        Visual = { bg = p.grey_sadness },
+
+        --Others
+        Directory = { fg = p.green_goblin, fmt="bold" },
     }
     highlight_it(menu)
     menu = nil

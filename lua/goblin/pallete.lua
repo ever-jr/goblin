@@ -32,7 +32,7 @@ return {
             cyan_tears = "#02a7aa",
         },
         white_dagger = "#e3eaef",
-        grey_dust = "#c0cbc7",
+        grey_dust = "#a0afa7",
         grey_sadness = "#525659",
         black_void = "#1d1b2e",
     },
