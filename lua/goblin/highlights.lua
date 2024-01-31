@@ -76,18 +76,9 @@ M.setup = function(p)
         Directory = { fg = p.green_goblin, fmt="bold" },
 
         --#region MUDANDO A COR DA COLUNA DOS NUMEROS
-        -- CursorLineSign = {},
-        -- CursorLineFold = {},
-        -- Folded = {},
-        FoldColumn = {},
+        -- FoldColumn = {},
         SignColumn = {},
-        PMenuSBar = {},
-        -- TabLine = {},
-        -- CursorColumn = {},
-        -- CursorLine = {},
-        -- lCursor = {},
-        -- RegrawDebugNormal = {},
-        --#endregion
+        -- PMenuSBar = {},
     }
 
     highlight_it(common)
