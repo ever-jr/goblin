@@ -63,7 +63,7 @@ M.setup = function(p)
         ["@lsp.type.property"] = { fg = p.white_dagger },
 
         --Menu related
-        LineNr = { fg = p.grey_dust, bg = "none" },
+        LineNr = { fg = p.grey_sadness },
         ColorColumn = { bg = p.black_void },
         Conceal = {},
         PMenu = { bg = p.black_void },
