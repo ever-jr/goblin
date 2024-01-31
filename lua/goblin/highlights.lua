@@ -43,11 +43,11 @@ M.setup = function(p)
         Label = { fg = p.purple_evil },
         Keyword = { fg = p.purple_evil },
         Exception = { fg = p.purple_evil },
+
+        Type = { fg = p.light.green_goblin },
         StorageClass = { fg = p.purple_evil },
         Structure = { fg = p.purple_evil },
         Typedef = { fg = p.purple_evil },
-
-        Type = { fg = p.light.green_goblin },
 
         Special = { fg = p.grey_dust },
         Delimiter = { fg = p.grey_dust },
@@ -59,13 +59,8 @@ M.setup = function(p)
 
         ["@punctuation"] = { fg = p.grey_dust },
 
-        ["@lsp.type.parameter"] = { fg = p.red_blood },
+        ["@lsp.type.parameter"] = { fg = p.light.red_blood },
         ["@lsp.type.property"] = { fg = p.white_dagger },
-
-        ["@module"] = { fg = p.light.red_blood },
-        ["@warning"] = { fg = p.light.yellow_gold },
-        ["@error"] = { fg = p.light.red_blood },
-        ["@danger"] = { fg = p.light.red_blood },
     }
     highlight_it(common)
     common = nil
@@ -79,6 +74,7 @@ M.setup = function(p)
         -- Conceal = {},
         PMenu = { bg = p.black_void },
         PMenuSel = { bg = p.light.blue_sky },
+        PMenuSBar = { bg = p.light.blue_sky, fg = p.white_dagger },
 
         StatusLine = { bg = p.grey_sadness, fg = p.white_dagger },
 
